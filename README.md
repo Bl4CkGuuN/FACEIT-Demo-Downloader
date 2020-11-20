@@ -1,6 +1,8 @@
 # FACEIT-Demo-Downloader
 PowerShell script that download the last x demos 
 
+Originally I wanted to download MM and FACEIT demos, maybe I will add this in the future but its not really working with PowerShell only...
+
 The script will check every user provided in the settings.ini
 
 # How to use the script
