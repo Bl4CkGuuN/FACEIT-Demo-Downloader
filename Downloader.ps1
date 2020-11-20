@@ -74,7 +74,7 @@ function Get-FACEIT-Demos([string]$user, [string]$apikey, [int]$democount) {
                     
                     if($downloaddemo) {
                         Write-Log "Downloading Demo: $demoname"
-                        #Invoke-WebRequest "$([string]$GetMatchInfo.demo_url)" -OutFile "$Downloadpath\$demoname"
+                        Invoke-WebRequest "$([string]$GetMatchInfo.demo_url)" -OutFile "$Downloadpath\$demoname"
                         Write-Log "$demoname successfully downloaded"
                     } else {
                         Write-Log "Die Demo '$demoname' is already downloaded"
